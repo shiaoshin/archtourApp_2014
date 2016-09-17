@@ -1,0 +1,147 @@
+/* Grid */
+.cell:nth-of-type(1) {background-image: url("https://farm7.staticflickr.com/6057/5906023523_804b6b441e_s_d.jpg");}
+.cell:nth-of-type(2) {background-image: url("https://farm9.staticflickr.com/8472/8401355168_a1b6eb92d3_s_d.jpg");}
+.cell:nth-of-type(3) {background-image: url("https://farm3.staticflickr.com/2676/4041657598_2daacff2ba_s_d.jpg");}
+.cell:nth-of-type(4) {background-image: url("http://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Marinacity466.JPG/180px-Marinacity466.JPG");}
+.cell:nth-of-type(5) {background-image: url("https://farm9.staticflickr.com/8183/8089018310_15e10673ab_s_d.jpg");}
+.cell:nth-of-type(6) {background-image: url("https://farm3.staticflickr.com/2854/12891194223_b787ff8e7c_s_d.jpg");}
+.cell:nth-of-type(7) {background-image: url("https://farm4.staticflickr.com/3714/9591436657_4930542f0b_s_d.jpg");}
+.cell:nth-of-type(8) {background-image: url("https://farm4.staticflickr.com/3134/2783596074_6ac92b3582_s_d.jpg");}
+.cell:nth-of-type(9) {background-image: url("https://farm3.staticflickr.com/2675/4075793498_1b2e03c871_s_d.jpg");}
+.cell:nth-of-type(10) {background-image: url("https://farm2.staticflickr.com/1361/4610455844_3744fe2c35_s_d.jpg");}
+.cell:nth-of-type(11) {background-image: url("https://farm4.staticflickr.com/3191/2461065270_2c7ed18226_s_d.jpg");}
+.cell:nth-of-type(12) {background-image: url("https://farm5.staticflickr.com/4126/5197135027_2ddacb4373_s_d.jpg");}
+.cell:nth-of-type(13) {background-image: url("https://farm7.staticflickr.com/6073/6120466710_111128725d_s_d.jpg");}
+.cell:nth-of-type(14) {background-image: url("https://farm8.staticflickr.com/7450/8887539834_08686ece18_s_d.jpg");}
+.cell:nth-of-type(15) {background-image: url("https://farm4.staticflickr.com/3908/14469982648_e70714428d_s_d.jpg");}
+.cell:nth-of-type(16) {background-image: url("https://farm5.staticflickr.com/4122/4934839572_58aab96bb0_s_d.jpg");}
+.cell:nth-of-type(17) {background-image: url("https://farm3.staticflickr.com/2618/3744181367_31014c7afe_s_d.jpg");}
+.cell:nth-of-type(18) {background-image: url("https://farm8.staticflickr.com/7098/7370288228_984bd4c84d_s_d.jpg");}
+.cell:nth-of-type(19) {background-image: url("https://farm9.staticflickr.com/8025/7185845229_af94c177aa_s_d.jpg");}
+.cell:nth-of-type(20) {background-image: url("https://farm8.staticflickr.com/7126/7819836418_7d1e90bcd4_s_d.jpg");}
+.cell:nth-of-type(21) {background-image: url("https://farm5.staticflickr.com/4131/5072195936_b9763b117f_s_d.jpg");}
+.cell:nth-of-type(22) {background-image: url("http://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Chase_Tower_in_Chicago.jpg/97px-Chase_Tower_in_Chicago.jpg");}
+.cell:nth-of-type(23) {background-image: url("https://farm7.staticflickr.com/6226/6307712265_bc09e597ee_s_d.jpg");}
+.cell:nth-of-type(24) {background-image: url("https://farm9.staticflickr.com/8469/8404798568_6d37286e22_s_d.jpg");}
+.cell:nth-of-type(25) {background-image: url("http://upload.wikimedia.org/wikipedia/commons/thumb/1/17/2010-03-03_1872x2808_chicago_reliance_building.jpg/97px-2010-03-03_1872x2808_chicago_reliance_building.jpg");}
+.cell:nth-of-type(26) {background-image: url("https://farm9.staticflickr.com/8088/8401393204_f762cd57ba_s_d.jpg");}
+.cell:nth-of-type(27) {background-image: url("http://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Hancock_tower_2006.jpg/97px-Hancock_tower_2006.jpg");}
+.cell:nth-of-type(28) {background-image: url("https://farm3.staticflickr.com/2597/3668250139_5a935c754a_s_d.jpg");}
+.cell:nth-of-type(29) {background-image: url("https://farm4.staticflickr.com/3260/2763151135_182e10dbea_s_d.jpg");}
+.cell:nth-of-type(30) {background-image: url("http://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Chicago_%288%29.jpg/97px-Chicago_%288%29.jpg");}
+
+/* Mobile 240~375 */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+   #index #front {background-image: url("https://farm9.staticflickr.com/8507/8590890660_20d81d25d3_z_d.jpg");}
+   #s1 #front {background-image: url("https://farm7.staticflickr.com/6057/5906023523_804b6b441e_n_d.jpg");}
+   #s2 #front {background-image: url("https://farm9.staticflickr.com/8472/8401355168_a1b6eb92d3_n_d.jpg");}
+   #s3 #front {background-image: url("https://farm3.staticflickr.com/2676/4041657598_2daacff2ba_n_d.jpg");}
+   #s4 #front {background-image: url("http://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Marinacity466.JPG/360px-Marinacity466.JPG");}
+   #s5 #front {background-image: url("https://farm9.staticflickr.com/8183/8089018310_15e10673ab_d.jpg");}
+   #s6 #front {background-image: url("https://farm3.staticflickr.com/2854/12891194223_b787ff8e7c_d.jpg");}
+   #s7 #front {background-image: url("https://farm4.staticflickr.com/3714/9591436657_4930542f0b_d.jpg");}
+   #s8 #front {background-image: url("https://farm4.staticflickr.com/3134/2783596074_6ac92b3582_d.jpg");}
+   #s9 #front {background-image: url("https://farm3.staticflickr.com/2675/4075793498_1b2e03c871_d.jpg");}
+   #s10 #front {background-image: url("https://farm2.staticflickr.com/1361/4610455844_3744fe2c35_d.jpg");}
+   #s11 #front {background-image: url("https://farm4.staticflickr.com/3191/2461065270_2c7ed18226_d.jpg");}
+   #s12 #front {background-image: url("https://farm5.staticflickr.com/4126/5197135027_2ddacb4373_d.jpg");}
+   #s13 #front {background-image: url("https://farm7.staticflickr.com/6073/6120466710_111128725d_d.jpg");}
+   #s14 #front {background-image: url("https://farm8.staticflickr.com/7450/8887539834_08686ece18_d.jpg");}
+   #s15 #front {background-image: url("https://farm4.staticflickr.com/3908/14469982648_e70714428d_d.jpg");}
+   #s16 #front {background-image: url("https://farm5.staticflickr.com/4122/4934839572_58aab96bb0_d.jpg");}
+   #s17 #front {background-image: url("https://farm3.staticflickr.com/2618/3744181367_31014c7afe_d.jpg");}
+   #s18 #front {background-image: url("https://farm8.staticflickr.com/7098/7370288228_984bd4c84d_d.jpg");}
+   #s19 #front {background-image: url("https://farm9.staticflickr.com/8025/7185845229_af94c177aa_d.jpg");}
+   #s20 #front {background-image: url("https://farm8.staticflickr.com/7126/7819836418_7d1e90bcd4_d.jpg");}
+   #s21 #front {background-image: url("https://farm5.staticflickr.com/4131/5072195936_b9763b117f_d.jpg");}
+   #s22 #front {background-image: url("http://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Chase_Tower_in_Chicago.jpg/321px-Chase_Tower_in_Chicago.jpg");}
+   #s23 #front {background-image: url("https://farm7.staticflickr.com/6226/6307712265_bc09e597ee_d.jpg");}
+   #s24 #front {background-image: url("https://farm9.staticflickr.com/8469/8404798568_6d37286e22_d.jpg");}
+   #s25 #front {background-image: url("http://upload.wikimedia.org/wikipedia/commons/thumb/1/17/2010-03-03_1872x2808_chicago_reliance_building.jpg/320px-2010-03-03_1872x2808_chicago_reliance_building.jpg");}
+   #s26 #front {background-image: url("https://farm9.staticflickr.com/8088/8401393204_f762cd57ba_d.jpg");}
+   #s27 #front {background-image: url("http://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Hancock_tower_2006.jpg/321px-Hancock_tower_2006.jpg");}
+   #s28 #front {background-image: url("https://farm3.staticflickr.com/2597/3668250139_5a935c754a_d.jpg");}
+   #s29 #front {background-image: url("https://farm4.staticflickr.com/3260/2763151135_182e10dbea_d.jpg");}
+   #s30 #front {background-image: url("http://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Chicago_%288%29.jpg/320px-Chicago_%288%29.jpg");}
+}
+
+/* Tablet 600~768 */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+   #index #front {background-image: url("https://farm9.staticflickr.com/8507/8590890660_20d81d25d3_b_d.jpg");}
+   #s1 #front {background-image: url("https://farm7.staticflickr.com/6057/5906023523_804b6b441e_b_d.jpg");}    
+   #s2 #front {background-image: url("https://farm9.staticflickr.com/8472/8401355168_a1b6eb92d3_b_d.jpg");}    
+   #s3 #front {background-image: url("https://farm3.staticflickr.com/2676/4041657598_2daacff2ba_b_d.jpg");}    
+   #s4 #front {background-image: url("http://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Marinacity466.JPG/768px-Marinacity466.JPG");}    
+   #s5 #front {background-image: url("https://farm9.staticflickr.com/8183/8089018310_15e10673ab_b_d.jpg");}    
+   #s6 #front {background-image: url("https://farm3.staticflickr.com/2854/12891194223_b787ff8e7c_b_d.jpg");}    
+   #s7 #front {background-image: url("https://farm4.staticflickr.com/3714/9591436657_4930542f0b_b_d.jpg");}    
+   #s8 #front {background-image: url("https://farm4.staticflickr.com/3134/2783596074_6ac92b3582_b_d.jpg");}    
+   #s9 #front {background-image: url("https://farm3.staticflickr.com/2675/4075793498_1b2e03c871_b_d.jpg");}    
+   #s10 #front {background-image: url("https://farm2.staticflickr.com/1361/4610455844_3744fe2c35_b_d.jpg");}
+   #s11 #front {background-image: url("https://farm4.staticflickr.com/3191/2461065270_2c7ed18226_b_d.jpg");}
+   #s12 #front {background-image: url("https://farm5.staticflickr.com/4126/5197135027_2ddacb4373_b_d.jpg");}
+   #s13 #front {background-image: url("https://farm7.staticflickr.com/6073/6120466710_111128725d_b_d.jpg");}
+   #s14 #front {background-image: url("https://farm8.staticflickr.com/7450/8887539834_08686ece18_b_d.jpg");}
+   #s15 #front {background-image: url("https://farm4.staticflickr.com/3908/14469982648_e70714428d_b_d.jpg");}
+   #s16 #front {background-image: url("https://farm5.staticflickr.com/4122/4934839572_58aab96bb0_b_d.jpg");}
+   #s17 #front {background-image: url("https://farm3.staticflickr.com/2618/3744181367_31014c7afe_b_d.jpg");}
+   #s18 #front {background-image: url("https://farm8.staticflickr.com/7098/7370288228_984bd4c84d_b_d.jpg");}
+   #s19 #front {background-image: url("https://farm9.staticflickr.com/8025/7185845229_af94c177aa_b_d.jpg");}
+   #s20 #front {background-image: url("https://farm8.staticflickr.com/7126/7819836418_7d1e90bcd4_b_d.jpg");}
+   #s21 #front {background-image: url("https://farm5.staticflickr.com/4131/5072195936_b9763b117f_b_d.jpg");}
+   #s22 #front {background-image: url("http://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Chase_Tower_in_Chicago.jpg/602px-Chase_Tower_in_Chicago.jpg");}
+   #s23 #front {background-image: url("https://farm7.staticflickr.com/6226/6307712265_bc09e597ee_b_d.jpg");}
+   #s24 #front {background-image: url("https://farm9.staticflickr.com/8469/8404798568_6d37286e22_b_d.jpg");}
+   #s25 #front {background-image: url("http://upload.wikimedia.org/wikipedia/commons/thumb/1/17/2010-03-03_1872x2808_chicago_reliance_building.jpg/600px-2010-03-03_1872x2808_chicago_reliance_building.jpg");}
+   #s26 #front {background-image: url("https://farm9.staticflickr.com/8088/8401393204_f762cd57ba_b_d.jpg");}
+   #s27 #front {background-image: url("http://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Hancock_tower_2006.jpg/602px-Hancock_tower_2006.jpg");}
+   #s28 #front {background-image: url("https://farm3.staticflickr.com/2597/3668250139_5a935c754a_b_d.jpg");}
+   #s29 #front {background-image: url("https://farm4.staticflickr.com/3260/2763151135_182e10dbea_b_d.jpg");}
+   #s30 #front {background-image: url("http://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Chicago_%288%29.jpg/601px-Chicago_%288%29.jpg");}
+}
+
+/* Desktops and laptops 1200+*/
+@media only screen 
+and (min-width : 1120px) {
+   #index #front {background-image: url("https://farm9.staticflickr.com/8507/8590890660_eab0a3f9d7_o_d.jpg");}
+   #s1 #front {background-image: url("https://farm7.staticflickr.com/6057/5906023523_3fd202f91a_o_d.jpg");}       
+   #s2 #front {background-image: url("https://farm9.staticflickr.com/8472/8401355168_b4a3d0be40_h_d.jpg");}       
+   #s3 #front {background-image: url("https://farm3.staticflickr.com/2676/4041657598_c80311cfd9_o_d.jpg");}       
+   #s4 #front {background-image: url("http://upload.wikimedia.org/wikipedia/commons/c/cb/Marinacity466.JPG");}       
+   #s5 #front {background-image: url("https://farm9.staticflickr.com/8183/8089018310_f3c4c6b2ca_k_d.jpg");}       
+   #s6 #front {background-image: url("https://farm3.staticflickr.com/2854/12891194223_9ecb9e61ce_h_d.jpg");}
+   #s7 #front {background-image: url("https://farm4.staticflickr.com/3714/9591436657_d97ae0fb75_k_d.jpg");}
+   #s8 #front {background-image: url("https://farm4.staticflickr.com/3134/2783596074_e1526f90ce_o_d.jpg");}
+   #s9 #front {background-image: url("https://farm3.staticflickr.com/2675/4075793498_123c5d388d_o_d.jpg");}
+   #s10 #front {background-image: url("https://farm2.staticflickr.com/1361/4610455844_17f7a4905f_o_d.jpg");}
+   #s11 #front {background-image: url("https://farm4.staticflickr.com/3191/2461065270_4c988b13f1_o_d.jpg");}
+   #s12 #front {background-image: url("https://farm5.staticflickr.com/4126/5197135027_d412c88142_o_d.jpg");}
+   #s13 #front {background-image: url("https://farm7.staticflickr.com/6073/6120466710_664850253b_o_d.jpg");}
+   #s14 #front {background-image: url("https://farm8.staticflickr.com/7450/8887539834_6ce5869a70_h_d.jpg");}
+   #s15 #front {background-image: url("https://farm4.staticflickr.com/3908/14469982648_a6dc8501da_h_d.jpg");}
+   #s16 #front {background-image: url("https://farm5.staticflickr.com/4122/4934839572_db6578dbac_o_d.jpg");}
+   #s17 #front {background-image: url("https://farm3.staticflickr.com/2618/3744181367_0cac88e65a_o_d.jpg");}
+   #s18 #front {background-image: url("https://farm8.staticflickr.com/7098/7370288228_72734f86f0_k_d.jpg");}
+   #s19 #front {background-image: url("https://farm9.staticflickr.com/8025/7185845229_13f19f0c44_k_d.jpg");}
+   #s20 #front {background-image: url("https://farm8.staticflickr.com/7126/7819836418_c5c939f5d3_h_d.jpg");}
+   #s21 #front {background-image: url("https://farm5.staticflickr.com/4131/5072195936_1de0187585_o_d.jpg");}
+   #s22 #front {background-image: url("http://upload.wikimedia.org/wikipedia/commons/1/15/Chase_Tower_in_Chicago.jpg");}
+   #s23 #front {background-image: url("https://farm7.staticflickr.com/6226/6307712265_75e3e3d1c0_o_d.jpg");}
+   #s24 #front {background-image: url("https://farm9.staticflickr.com/8469/8404798568_7d8871f348_h_d.jpg");}
+   #s25 #front {background-image: url("http://upload.wikimedia.org/wikipedia/commons/1/17/2010-03-03_1872x2808_chicago_reliance_building.jpg");}
+   #s26 #front {background-image: url("https://farm9.staticflickr.com/8088/8401393204_21670b36f5_h_d.jpg");}
+   #s27 #front {background-image: url("http://upload.wikimedia.org/wikipedia/commons/5/5d/Hancock_tower_2006.jpg");}
+   #s28 #front {background-image: url("https://farm3.staticflickr.com/2597/3668250139_4a8f97ddef_o_d.jpg");}
+   #s29 #front {background-image: url("https://farm4.staticflickr.com/3260/2763151135_ca6c7c8448_o_d.jpg");}
+   #s30 #front {background-image: url("http://upload.wikimedia.org/wikipedia/commons/4/40/Chicago_%288%29.jpg");}    
+}
+
+/* Large screens 
+@media only screen 
+and (min-width : 1824px) {
+    
+}*/

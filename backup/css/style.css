@@ -1,0 +1,281 @@
+body {
+    color: #787D7E;
+    font-family: 'Open Sans', sans-serif;
+}
+div {
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+li {
+    list-style-type: none;
+}
+.container-fluid {
+    position: absolute;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Navigational Element */
+nav {
+    position: fixed;
+    height: 99.7vh;
+    z-index: 1;
+}
+.navItem {
+    position: absolute;
+    display: table;
+}
+
+/* Left/Right */
+.next, .prev {
+    top: 88vh;
+    font-size: 40px;
+    text-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+    color: rgba(250,250,250,0.7);
+}
+.next {
+    right: 0;
+}
+.prev {
+    left: 0;
+    line-height: 40px;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.next.flip span, .prev.flip span {
+    color: transparent;
+    -webkit-text-stroke: 2px #787D7E;
+}
+
+/* Tapping & Note */
+.tap, .note, .collapse {
+    top: 91vh;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    margin: -30px 0 0 -30px;
+    font-size: 60px;
+    vertical-align: middle;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+}
+.tap span, .note span, .collapse span {
+    display: table-cell;
+}
+.tap {
+    left: 50%;
+    background: rgba(250,250,250,0.3);
+    border: solid 2px rgba(250,250,250,0.3);
+}
+.tap span {
+    color: rgba(250,250,250,0.75);
+}
+.note {
+    left: 62%;
+    border: solid 2px #787D7E;
+}
+.withNote {
+    left: 38%;
+}
+.tap.flip {
+    background: transparent;
+    border: solid 2px #787D7E;
+}
+.tap.flip span {
+    color: #787D7E;
+}
+.collapse {
+    left: 50%;
+    top: 191vh;
+}
+.collapse span {
+    color: rgba(0,0,0,0.5);
+}
+
+/* Map & Card Mode */
+.openmap {
+    font-size: 40px;
+    right: 5px;
+}
+
+/* Type */
+.type {
+    width: 50px;
+    height: 50px;
+    top: -10px;
+    left: -10px;
+    padding: 8px 0 0 13px;
+    font-size: 22px;
+    color: rgba(0,0,0,0.6);
+    background-color: rgba(250,250,250,0.2);
+    border-radius: 25px;
+    border: solid 2px #787D7E;
+}
+
+/* Card */
+.cards {
+    position: absolute;
+    background: #333;
+    top: 0;
+    left: 0;
+    height: 100vh;
+}
+.card {
+    position: relative;
+    display: block;
+    height: 100vh;
+    width: 100vw;
+    float: left;
+    border: solid 1px #000;
+    -webkit-perspective: 800px;
+       -moz-perspective: 800px;
+         -o-perspective: 800px;
+            perspective: 800px;
+}
+.card > div {
+    position: absolute;
+    display: block;
+    height: 100vh;
+    width: 100vw;
+    padding: 5vw;
+    -webkit-transform-style: preserve-3d;
+       -moz-transform-style: preserve-3d;
+        -ms-transform-style: preserve-3d;         
+         -o-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+       -moz-backface-visibility: hidden;
+         -o-backface-visibility: hidden;
+            backface-visibility: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.card header {
+    width: 100%;
+    font-size: 23px;
+    line-height: 23px;
+    margin-top: -10px;
+    font-weight: 600;
+    padding: 0 10vw;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.front header {
+    color: rgba(0,0,0,0.6);
+}
+.back header {
+    color: rgba(250,250,250,0.6);
+}
+.front { }
+.back {
+    color: rgba(250,250,250,0.6);
+    background-color: #666;
+    opacity: 0;
+    -webkit-transform: rotateY( 315deg );
+       -moz-transform: rotateY( 315deg );
+         -o-transform: rotateY( 315deg );
+            transform: rotateY( 315deg );
+}
+.back li {
+    border-left: solid 3px rgba(250,250,250,0.3);
+    padding-left: 15px;
+}
+.back li:first-of-type {
+    margin-top: 15px;
+}
+.back li:last-of-type {
+    margin-bottom: 15px;
+}
+.info {
+    background-color: #CCC;
+    color: #333;
+    top: 100vh;
+    box-shadow: 0 -3px 10px rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+.front.flipped {
+    opacity: 0;
+    -webkit-transform: rotateY( 45deg );
+       -moz-transform: rotateY( 45deg );
+         -o-transform: rotateY( 45deg );
+            transform: rotateY( 45deg );
+}
+.back.flipped {
+    opacity: 1;
+    -webkit-transform: rotateY( 360deg );
+       -moz-transform: rotateY( 360deg );
+         -o-transform: rotateY( 360deg );
+            transform: rotateY( 360deg );
+}
+.cc {
+    font-size: 6px;
+    text-align: right;
+}
+
+/* Animation */
+.easeOut {
+    -webkit-transition: all 250ms cubic-bezier(0.215, 0.610, 0.355, 1.000); 
+       -moz-transition: all 250ms cubic-bezier(0.215, 0.610, 0.355, 1.000); 
+        -ms-transition: all 250ms cubic-bezier(0.215, 0.610, 0.355, 1.000); 
+         -o-transition: all 250ms cubic-bezier(0.215, 0.610, 0.355, 1.000); 
+            transition: all 250ms cubic-bezier(0.215, 0.610, 0.355, 1.000); /* easeOutCubic */
+}
+.easeIn {
+    -webkit-transition: all 250ms cubic-bezier(0.550, 0.055, 0.675, 0.190); 
+       -moz-transition: all 250ms cubic-bezier(0.550, 0.055, 0.675, 0.190); 
+        -ms-transition: all 250ms cubic-bezier(0.550, 0.055, 0.675, 0.190); 
+         -o-transition: all 250ms cubic-bezier(0.550, 0.055, 0.675, 0.190); 
+            transition: all 250ms cubic-bezier(0.550, 0.055, 0.675, 0.190); /* easeInCubic */
+}
+
+/* Table */
+.table {
+    width: 80vw;
+    margin: 10px auto;
+}
+.table p {
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+}
+.table p span {
+    max-width: 60vw;
+    display: inline-block;
+    margin-left: 4vw;
+    padding-left: 4vw; 
+    border-left: solid 2px rgba(250,250,250,0.5);
+}
+#credit .table {
+    width: 100vw;
+}
+#credit .table p {
+}
+#credit .table p span {
+    max-width: 70vw;
+}
+
+/* Content */
+#landing { }
+#landing .front {
+    color: rgba(250,250,250,0.6);
+    background-image: url("../../img/00_m.jpg");
+    text-shadow: 0px 0px 2px rgba(250,250,250,0.6);
+}
+#landing .front h3 {
+    position: absolute;
+    top: 65vh;
+    width: 100vw;
+}
+#landing .front p {
+    position: absolute;
+    top: 78vh;
+    width: 100vw;
+}
+#credit .front, #credit .front header {
+    color: rgba(250,250,250,0.6);
+}

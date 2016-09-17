@@ -1,0 +1,52 @@
+@font-face {
+	font-family: 'TSA_Arch_Tour';
+	src:url('../fonts/TSA_Arch_Tour.eot?8w146y');
+	src:url('../fonts/TSA_Arch_Tour.eot?#iefix8w146y') format('embedded-opentype'),
+		url('../fonts/TSA_Arch_Tour.woff?8w146y') format('woff'),
+		url('../fonts/TSA_Arch_Tour.ttf?8w146y') format('truetype'),
+		url('../fonts/TSA_Arch_Tour.svg?8w146y#TSA_Arch_Tour') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="tat"], [class*=" tat"] {
+	font-family: 'TSA_Arch_Tour';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.tatarr_hollow:before {
+	content: "\e600";
+}
+.tatcollapse:before {
+	content: "\e601";
+}
+.tatminus:before {
+	content: "\e602";
+}
+.tatplus:before {
+	content: "\e603";
+}
+.tatarr_solid:before {
+	content: "\e604";
+}
+.tatcard:before {
+	content: "\e605";
+}
+.tatmap:before {
+	content: "\e606";
+}
+.tatnote:before {
+	content: "\e607";
+}
+.tattap:before {
+	content: "\e608";
+}
